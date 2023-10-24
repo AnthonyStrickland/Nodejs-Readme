@@ -84,7 +84,7 @@ const generateMarkdown = require('./utils/generateMarkdown');
      },
      {
         type: "input",
-        message: "for any questions contact me at my github account, ",
+        message: "for any questions github account is, ",
         name: "github",
         validate: function (answer) {
             if (answer.length < 1) {
@@ -95,7 +95,7 @@ const generateMarkdown = require('./utils/generateMarkdown');
      },
      {
         type: "input",
-        message: "for any questions contact me at my email account, ",
+        message: "for any further questions you can contact me at my email account, ",
         name: "email",
         validate: function (answer) {
             if (answer.length < 1) {
